@@ -125,7 +125,6 @@ header a {
 }
 
 .hero h4 {
-    font-size: 4em;
     font-weight: 400;
     margin-top: -50px;
 }
@@ -136,6 +135,7 @@ header a {
     text-align: left;
     width: 80%;
     font-weight: 600px;
+    font-size: 4em;
 }
 
 .hero-question {
