@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfilePic from '../../assets/images/BLe_Headshot.jpg';
 
 function About() {
 
@@ -21,7 +22,7 @@ function About() {
                 </div>
                 <div className='profilepic'>
                     <div className='wrapper'>
-                        {/* <img src={profileImage} className='hero-img' alt='Profile Pic'></img> */}
+                        <img src={ProfilePic} className='hero-img' alt='Profile Pic'></img>
                     </div>
                 </div>
             </div>
