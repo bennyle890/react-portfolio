@@ -71,9 +71,9 @@ function Prowork() {
           <div class="project-content">
             <div>
               <p class="project-overline">Featured Project</p>
-              <h3 class="project-title"><a href="https://text-editor-2.herokuapp.com/" target="blank">Just A Text Editor</a></h3>
+              <h3 class="project-title"><a href="https://text-editor-2.herokuapp.com/" target="blank">J.A.T.E.</a></h3>
               <div class="project-description">
-                <p>A simple Text Editor Utilizing <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, <a href="https://serpapi.com/google-events-api" target="_blank">Google Events Api</a>, <a href="https://www.javascript.com/" target="_blank">JavaScript</a>, and more. </p>
+                <p>A simple Text Editor Utilizing <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, to created a Progressive Web Application. </p>
                 <ul class="project-tech-list">
                   <li>VS Code</li>
                   <li>Manifest</li>

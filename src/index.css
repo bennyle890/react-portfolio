@@ -232,6 +232,17 @@ p {
     text-align: center;
 }
 
+.bullet-l {
+    float: left;
+    width: 33%;
+    margin-left: 10%
+}
+
+.bullet-r {
+    float: right;
+    width: 33%;
+    margin-right: 10%;
+}
 
 /* CSS Images */
 
@@ -353,8 +364,6 @@ h3>a {
 .computer-img:hover {
     opacity: 0.8;
 }
-
-
 
 .below-about-me {
     display: flex;
