@@ -4,6 +4,7 @@ import About from './components/About';
 import Hero from './components/Hero';
 import Sidebar from './components/Sidebar';
 import Prowork from './components/ProWork';
+import Footer from './components/Footer';
 // import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                 <Sidebar />
                 <Prowork />
             </main>
+            <Footer />
         </div>
     );
 }

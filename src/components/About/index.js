@@ -17,6 +17,8 @@ function About() {
                             <li>Node.js</li>
                             <li>MySql</li>
                             <li>Express</li>
+                            <li>MongoDB</li>
+                            <li>GraphQL</li>
                             <li>React</li>
                         </ul>
                 </div>

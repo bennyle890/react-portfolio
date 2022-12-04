@@ -1,13 +1,13 @@
 import React from 'react';
 import MagicTraveler from '../../assets/images/MagTrav-Homepage.png';
 import QCFoodies from '../../assets/images/QCFoodiesHomepage.png';
-import Construction from '../../assets/images/construction.gif';
+import TextEditor from '../../assets/images/JATE-img.png';
 
 function Prowork() {
 
     return(
-<section id="projects">
-      <h2 class="headings">Professional Work</h2>
+    <section id="projects">
+    <h2 class="headings">Professional Work</h2>
       <ul class="featured-projects">
         {/* Project 1  */}
         <li class="featured-project-styled">
@@ -71,12 +71,12 @@ function Prowork() {
           <div class="project-content">
             <div>
               <p class="project-overline">Featured Project</p>
-              <h3 class="project-title"><a href="https://www.youtube.com/watch?v=5GL9JoH4Sws&ab_channel=FifthHarmonyVEVO" target="blank">Under Construction</a></h3>
+              <h3 class="project-title"><a href="https://text-editor-2.herokuapp.com/" target="blank">Just A Text Editor</a></h3>
               <div class="project-description">
-                <p>This is a filler for a future project. Stay tuned to see the next project :) Utilizing <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, <a href="https://serpapi.com/google-events-api" target="_blank">Google Events Api</a>, <a href="https://www.javascript.com/" target="_blank">JavaScript</a>, and more. </p>
+                <p>A simple Text Editor Utilizing <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, <a href="https://serpapi.com/google-events-api" target="_blank">Google Events Api</a>, <a href="https://www.javascript.com/" target="_blank">JavaScript</a>, and more. </p>
                 <ul class="project-tech-list">
                   <li>VS Code</li>
-                  <li>Cirrus</li>
+                  <li>Manifest</li>
                   <li>Express</li>
                   <li>Node.js</li>
                 </ul>
@@ -87,14 +87,18 @@ function Prowork() {
             </div>
           </div>
           <div class="project-image">
-            <a href="https://www.youtube.com/watch?v=5GL9JoH4Sws&ab_channel=FifthHarmonyVEVO" target="_blank">
+            <a href="https://text-editor-2.herokuapp.com/" target="_blank">
               <div class="image-wrapper">
-            <img src={Construction} class="computer-img" alt="Construction pic" />
+            <img src={TextEditor} class="computer-img" alt="Construction pic" />
               </div>
             </a>
           </div>
         </li>
       </ul>
+
+      <h2 class="headings">Other Noteworthy Projects</h2>
+      {/* Add Text Editor */}
+
     </section>
     )
 };
