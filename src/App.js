@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Hero from './components/Hero';
 import Sidebar from './components/Sidebar';
+import Prowork from './components/ProWork';
 // import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                 <Hero />
                 <About></About>
                 <Sidebar />
+                <Prowork />
             </main>
         </div>
     );
