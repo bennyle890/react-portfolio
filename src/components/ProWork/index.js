@@ -97,7 +97,7 @@ function Prowork() {
       </ul>
 
       <h2 class="headings">Other Noteworthy Projects</h2>
-      {/* Add Text Editor */}
+      {/* Weather Whenever */}
 
     </section>
     )
