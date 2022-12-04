@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Hero from './components/Hero';
+import Sidebar from './components/Sidebar';
 // import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <main>
                 <Hero />
                 <About></About>
+                <Sidebar />
             </main>
         </div>
     );
