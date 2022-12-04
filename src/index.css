@@ -87,46 +87,28 @@ header a {
 
 /* Hero Start */
 .hero-text {
-    padding-bottom: 20px;
     width: 100%;
     text-align: center;
-    padding-bottom: 15%;
-
-}
-
-.hero h3 {
-
-    font-size: 1.5em;
-    font-weight: 400;
-    margin-bottom: -20px;
+    padding-bottom: 20%;
 }
 
 .hero-title {
     display: inline-block;
     text-align: left;
     width: 80%;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: -20px;
+    color: #c9d9e8;
 }
 
 .hero-greeting {
     display: inline-block;
     text-align: left;
     width: 80%;
-}
-
-.hero h2 {
+    color: #00ffcc;
     font-size: 2em;
     font-weight: 400;
-    color: #00ffcc;
-}
-
-.hero h1 {
-    font-size: 6em;
-    margin-top: -10px;
-}
-
-.hero h4 {
-    font-weight: 400;
-    margin-top: -50px;
 }
 
 .hero-main {
@@ -135,7 +117,8 @@ header a {
     text-align: left;
     width: 80%;
     font-weight: 600px;
-    font-size: 4em;
+    font-size: 6em;
+    margin-top: -10px;
 }
 
 .hero-question {
@@ -143,21 +126,22 @@ header a {
     display: inline-block;
     text-align: left;
     width: 80%;
+    font-size: 4em;
     font-weight: 600px;
+    font-weight: 400;
+    margin-top: -50px;
 }
 
-.hero p {
-    width: 80%;
-    text-align: left;
-    display: inline-block;
-    margin-top: -20px;
-}
 
 .hero-text p {
     font-size: 1.2em;
     position: relative;
     width: 35%;
     margin-right: 29%;
+    margin-top: -20px;
+    display: inline-block;
+    text-align: left;
+    width: 60%;
 }
 
 p > a {
@@ -223,6 +207,8 @@ p > a {
     position: relative;
     width: 80%;
     margin-left: 20%;
+    color: #c9d9e8;
+    font-weight: 600;
 }
 
 #about-me ul {
