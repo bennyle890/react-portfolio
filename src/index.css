@@ -91,23 +91,24 @@ header a {
     padding-bottom: 20%;
 }
 
-.hero-title {
+/* .hero-title {
     display: inline-block;
     text-align: left;
     width: 80%;
     font-size: 1.5em;
     font-weight: 400;
     margin-bottom: -20px;
-    color: #c9d9e8;
-}
+    color: #00ffcc; 
+} */
 
 .hero-greeting {
     display: inline-block;
     text-align: left;
     width: 80%;
-    color: #00ffcc;
+    color: #00ffcc; 
     font-size: 2em;
     font-weight: 400;
+    margin-top: 50px;
 }
 
 .hero-main {
@@ -115,7 +116,7 @@ header a {
     display: inline-block;
     text-align: left;
     width: 80%;
-    font-weight: 600px;
+    font-weight: 500;
     font-size: 6em;
     margin-top: -10px;
 }
@@ -346,7 +347,7 @@ h3>a {
     width: 35vw;
     height: 25vw;
     transition: .5s ease;
-
+    border-radius: 3px;
 }
 
 .computer-img:hover {

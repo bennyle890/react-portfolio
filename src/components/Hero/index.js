@@ -5,7 +5,7 @@ function Hero() {
     return (
         <section>
             <div className='hero-text'>
-                <h3 className='hero-title'> Thanks for visiting.</h3>
+                {/* <h3 className='hero-title'> Thanks for visiting.</h3> */}
                 <h2 className='hero-greeting'> Nice to meet you. My name is</h2>
                 <h1 className='hero-main'>Benny Le.</h1>
                 <h4 className='hero-question'> I'm still learning... but who isn't?</h4> 
