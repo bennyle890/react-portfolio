@@ -18,6 +18,7 @@ function Nav() {
         <header>
             <div id='navbar' className='nav navbar-items'>
                 <div className='logo'></div>
+                <a href='button' className='reveal'>Resume</a>
                 <a href='#contact' className='reveal'>Contact</a>
                 <a href='#professional-work' className='reveal'>Professional Work</a>
                 <a href='#about-me' className='reveal'>About</a>
