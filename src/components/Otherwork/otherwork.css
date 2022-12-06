@@ -8,3 +8,19 @@
     border-bottom: 1px solid #00ffcc;
     margin-left: 10%;
 }
+
+.project-a {
+    margin: 5%
+}
+
+
+.container-a {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-a {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+}

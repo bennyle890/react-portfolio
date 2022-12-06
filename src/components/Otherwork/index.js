@@ -14,6 +14,13 @@ function Otherwork() {
             deployedLink: 'https://bennyle890.github.io/Weather-Whenever/'
         },
         {
+            title: 'Network with Me!',
+            description: 'Social Network API - CRUD',
+            img: 'network',
+            alt: 'Social Network API',
+            deployedLink: 'https://github.com/bennyle890/network-with-me'
+        },
+        {
             title: 'Notes for Thoughts',
             description: 'Note taking application',
             img: 'Notes',
@@ -46,7 +53,7 @@ function Otherwork() {
     return (
         <section className='reveal-element'>
             <h2 className="headings-a">Other Noteworthy Projects</h2>
-            <section className="project" id="project">
+            <section className="project-a" id="project-a">
                 <div className='container-a'>
                     {projects.map((el, i) => (
                         <div key={i} className='row-a'>

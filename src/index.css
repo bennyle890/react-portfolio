@@ -436,14 +436,3 @@ h3>a {
     margin-top: 150px;
     margin-left: 15px;
 }
-
-.container-a {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.row-a {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-}

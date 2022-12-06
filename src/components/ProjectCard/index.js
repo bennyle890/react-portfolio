@@ -13,7 +13,7 @@ function ProjectCard(props) {
                     </img>
                 </a>
                 <div className='project-text'>
-                    <h2 className='project-title'>{title}</h2>
+                    <h2 className='project-title-a'>{title}</h2>
                     <p className='project-desc'>{description}</p>
                 </div>
             </div>
