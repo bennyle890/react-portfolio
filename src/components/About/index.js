@@ -3,6 +3,7 @@ import ProfilePic from '../../assets/images/BLe_Headshot.jpg';
 
 function About() {
 
+    // Javascript for Scroll Down Transition 
     window.addEventListener('scroll', reveal);
 
     function reveal(){
@@ -21,7 +22,7 @@ function About() {
                 reveals[i].classList.remove('active');
             }
         }
-    }
+    };
 
     return (
         <section className='about-me reveal-element' id='about-me'>

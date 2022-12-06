@@ -19,12 +19,33 @@ function Prowork () {
         },
     ];
 
+    // Javascript for Scroll Down Transition 
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+        var reveals = document.querySelectorAll('.reveal-element');
+
+        for(var i = 0; i < reveals.length; i++){
+            
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if(revealtop < windowheight - revealpoint){
+                reveals[i].classList.add('active');
+            }
+            else {
+                reveals[i].classList.remove('active');
+            }
+        }
+    };
+
     return(
-    <section id="projects">
+    <section className='reveal-element' id="projects">
     <h2 class="headings">Professional Work</h2>
       <ul class="featured-projects">
         {/* Project 1  */}
-        <li class="featured-project-styled">
+        <li class="featured-project-styled reveal-element">
           <div class="project-content">
             <div>
               <p class="project-overline">Featured Project</p>
@@ -53,7 +74,7 @@ function Prowork () {
           </div>
         </li>
         {/*  Project 2 */}
-        <li class="featured-project-styled">
+        <li class="featured-project-styled reveal-element">
           <div class="project-content">
             <div>
               <p class="project-overline">Featured Project</p>
@@ -81,7 +102,7 @@ function Prowork () {
           </div>
         </li>
         {/* Project 3  */}
-        <li class="featured-project-styled">
+        <li class="featured-project-styled reveal-element">
           <div class="project-content">
             <div>
               <p class="project-overline">Featured Project</p>
