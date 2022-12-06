@@ -33,6 +33,27 @@ function ContactForm() {
         }
     };
 
+        // Javascript for Scroll Down Transition 
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+        var reveals = document.querySelectorAll('.reveal-element');
+
+        for(var i = 0; i < reveals.length; i++){
+            
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if(revealtop < windowheight - revealpoint){
+                reveals[i].classList.add('active');
+            }
+            else {
+                reveals[i].classList.remove('active');
+            }
+        }
+    };
+
     return (
         <section className='reveal-element'>
             <h1 id='contact' className='contact'>Contact Me</h1>
