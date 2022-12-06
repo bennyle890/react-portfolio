@@ -169,14 +169,17 @@ p > a {
 }
 
 .hero-img {
-    border-radius: 10%;
-    border: 2px solid;
+    border-radius: 2%;
+    border: 2px ;
     height: 350px;
     width: 250px;
     float: right;
     /* position: relative; */
     margin-right: 50%;
     margin-left: 15%;
+    /* display: inline-block; */
+    box-shadow: 30px 30px 0 #00ffcc;
+    justify-content: center;
 }
 
 .wrapper {

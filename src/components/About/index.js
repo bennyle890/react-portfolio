@@ -51,6 +51,9 @@ function About() {
                 </div>
                 <div className='profilepic'>
                     <div className='wrapper'>
+                        <div className='backdrop'>
+                            <div></div>
+                        </div>
                         <img src={ProfilePic} className='hero-img' alt='Profile Pic'></img>
                     </div>
                 </div>
