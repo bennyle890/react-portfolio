@@ -19,7 +19,7 @@ This is a professional portfolio utilizing react and other skills obtained throu
   # Usage
   In order to use this app, you will need to make sure you have node.js installed to your Visual Studio Code. One you have installed the necessary dependancies, execute npm start to your application. <br>
 
-  A link to the deployed application is found [here.]()
+  A link to the deployed application is found [here.](https://bennyle890.github.io/react-portfolio/)
 
 ![React Portfolio](./src/assets/images/react-portfolio.png)
 
