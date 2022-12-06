@@ -17,10 +17,12 @@
 .container-a {
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .row-a {
     float: left;
     width: 30%;
     padding: 0 10px;
+    padding-bottom: 10%;
 }
