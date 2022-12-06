@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import './contact.css';
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -34,26 +35,26 @@ function ContactForm() {
 
     return (
         <section>
-            <h1 data-testid='h1tag' id='#contact'>Contact Me</h1>
-            <form id='contact-form' onSubmit={handleSubmit}>
+            <h1 id='contact' className='contact'>Contact Me</h1>
+            <form id='contact-form' onSubmit={handleSubmit} className='contact-form'>
                 <div>
-                    <label htmlFor='name'>Name:</label>
-                    <input type='text' name='name' defaultValue={name} onBlur={handleChange} />
+                    <label htmlFor='name' className='c-name'>Full Name:</label>
+                    <input type='text' name='name' defaultValue={name} onBlur={handleChange} className='form-input'/>
                 </div>
                 <div>
-                    <label htmlFor='email'>Email Address:</label>
-                    <input type='email' name='email' defaultValue={email} onBlur={handleChange} />
+                    <label htmlFor='email' className='c-name'>Email Address:</label>
+                    <input type='email' name='email' defaultValue={email} onBlur={handleChange} className='form-input'/>
                 </div>
                 <div>
-                    <label htmlFor='message'>Message:</label>
-                    <textarea name='message' rows='5' defaultValue={message} onBlur={handleChange} />
+                    <label htmlFor='message' className='c-name'>Message:</label>
+                    <textarea name='message' rows='5' defaultValue={message} onBlur={handleChange} className='form-input'/>
                 </div>
                 {errorMessage && (
                     <div>
-                        <p className='error-text'>{errorMessage}</p>
+                        <p className='error-text'><strong>{errorMessage}</strong></p>
                     </div>
                 )}
-                <button data-testid='button' type='submit'>submit</button>
+                <button data-testid='button' type='submit'><strong>submit</strong></button>
             </form>
         </section>
     );

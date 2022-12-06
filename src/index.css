@@ -251,8 +251,6 @@ p {
     margin-right: 10%;
 }
 
-/* CSS Images */
-
 /* Start Projects Here */
 #projects {
     justify-content: center;
@@ -370,15 +368,11 @@ h3>a {
     transition: .5s ease;
     border-radius: 3px;
 }
-
 /* End Work Section */
-
-/* Contact Me Section */
 
 
 
 /* Side Bar  */
-
 .sidebar {
     height: 80%;
     width: 100px;
