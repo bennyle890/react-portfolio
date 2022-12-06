@@ -4,7 +4,7 @@
 
 
   # Description
-    This is a professional portfolio utilizing react and other skills obtained throughout the course of UNCC's online bootcamp. Using these skills, the initial portfolio created in module 2 you are able to see similarities as well as improvements. There are more similarities between both modules however, it is because I tried to keep my Module 2 portfolio up to date. 
+This is a professional portfolio utilizing react and other skills obtained throughout the course of UNCC's online bootcamp. Using these skills, the initial portfolio created in module 2 you are able to see similarities as well as improvements. There are more similarities between both modules however, it is because I tried to keep my Module 2 portfolio up to date. 
 
   # Table of Contents
   * [Installation](#installation)
