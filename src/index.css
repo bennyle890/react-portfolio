@@ -83,6 +83,18 @@ header a {
     opacity: 0;
 }
 
+.reveal-element {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+.reveal-element.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 
 /* Hero Start */
 .hero-text {
@@ -479,3 +491,4 @@ footer {
     margin-top: 150px;
     margin-left: 15px;
 }
+
