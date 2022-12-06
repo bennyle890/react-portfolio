@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.cd65a7b4.css",
+    "main.js": "/react-portfolio/static/js/main.eb346e4b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/MagTrav-Homepage.png": "/react-portfolio/static/media/MagTrav-Homepage.4379e94d016ac31494fc.png",
+    "static/media/linkedinimg.png": "/react-portfolio/static/media/linkedinimg.a18fd0e384ab23935aea.png",
+    "static/media/network.png": "/react-portfolio/static/media/network.b89962bb0f9c55163fb7.png",
+    "static/media/react-portfolio.png": "/react-portfolio/static/media/react-portfolio.973174848b21fd43ac9b.png",
+    "static/media/QCFoodiesHomepage.png": "/react-portfolio/static/media/QCFoodiesHomepage.5d202fa69ca2c35ba34f.png",
+    "static/media/BLe_Headshot.jpg": "/react-portfolio/static/media/BLe_Headshot.b7cfb92604b3fa522747.jpg",
+    "static/media/WeatherWhenever.png": "/react-portfolio/static/media/WeatherWhenever.6eabd3e89f01fff749e6.png",
+    "static/media/Instagram.png": "/react-portfolio/static/media/Instagram.d072393aec181d088583.png",
+    "static/media/Notes.png": "/react-portfolio/static/media/Notes.9f016965843457eb59a1.png",
+    "static/media/JATE-img.png": "/react-portfolio/static/media/JATE-img.8e71a02a85edd3d4d529.png",
+    "static/media/GitHubCat.png": "/react-portfolio/static/media/GitHubCat.987334e9f782cc505f25.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.cd65a7b4.css.map": "/react-portfolio/static/css/main.cd65a7b4.css.map",
+    "main.eb346e4b.js.map": "/react-portfolio/static/js/main.eb346e4b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd65a7b4.css",
+    "static/js/main.eb346e4b.js"
+  ]
+}
