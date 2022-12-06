@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Hero from './components/Hero';
@@ -7,11 +7,8 @@ import Prowork from './components/Prowork';
 import Footer from './components/Footer';
 import Otherwork from './components/Otherwork';
 import ContactForm from './components/Contact';
-// import './App.css';
 
 function App() {
-
-    const [selected, setSelected] = useState(false);
 
     return( 
         <div>
