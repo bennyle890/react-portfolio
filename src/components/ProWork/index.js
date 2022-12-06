@@ -1,23 +1,11 @@
 import React from 'react';
-// import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
-import ProjectCard from '../ProjectCard';
 import MagicTraveler from '../../assets/images/MagTrav-Homepage.png';
 import QCFoodies from '../../assets/images/QCFoodiesHomepage.png';
 import TextEditor from '../../assets/images/JATE-img.png';
-import TrackVisibility from 'react-on-screen';
+
 
 
 function Prowork () {
-
-    const projects = [
-        {
-            title: 'Weather Whenever',
-            description: 'Simple Weather App',
-            img: 'WeatherWhenever',
-            alt: 'Weather Whenever website',
-            deployedlink: 'https://bennyle890.github.io/Weather-Whenever/'
-        },
-    ];
 
     // Javascript for Scroll Down Transition 
     window.addEventListener('scroll', reveal);
@@ -130,23 +118,6 @@ function Prowork () {
           </div>
         </li>
       </ul>
-
-      <h2 class="headings">Other Noteworthy Projects</h2>
-      <section className="project" id="project">
-        <div className='container'>
-            {projects.map((el, i) => (
-                <div key={i}>
-                    <ProjectCard
-                        title = {el.title}
-                        description = {el.description}
-                        img = {el.img}
-                        alt = {el.alt}
-                        deployedlink = {el.deployedlink}
-                    />
-                </div>
-            ))}
-        </div>
-      </section>
       
     </section>
     )

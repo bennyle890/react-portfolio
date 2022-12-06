@@ -390,18 +390,21 @@ footer {
     position: fixed;
     right: 0;
     bottom: 0;
-    opacity: 100%;
+    background-color: transparent;
     padding-top: 40px;
+    z-index: 999;
 }
 
 .sidebar a {
     display: block;
+    background-color: transparent;
 }
 
 .ghcatimg {
     width: 30px;
     transition: .5s ease;
     margin-left: 2px;
+    background-color: transparent;
 }
 
 .ghcatimg:hover {
