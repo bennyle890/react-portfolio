@@ -18,7 +18,9 @@ function Nav() {
         <header>
             <div id='navbar' className='nav navbar-items'>
                 <div className='logo'></div>
-                <a href='BLe_Resume_C.pdf' download='Ble_Resume_C.pdf' className='reveal'>Resume</a>
+                <button className='resume-button'>
+                    <a href='BLe_Resume_C.pdf' download='Ble_Resume_C.pdf' className='reveal'>Resume</a>
+                </button>
                 <a href='#contact' className='reveal'>Contact</a>
                 <a href='#professional-work' className='reveal'>Professional Work</a>
                 <a href='#about-me' className='reveal'>About</a>
