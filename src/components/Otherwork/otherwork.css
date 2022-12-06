@@ -1,0 +1,10 @@
+.headings-a {
+    color: #00ffcc;
+    position: relative;
+    width: 80%;
+    text-align: left;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 1px solid #00ffcc;
+    margin-left: 10%;
+}

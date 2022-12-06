@@ -29,7 +29,7 @@ function Prowork () {
     };
 
     return(
-    <section className='reveal-element' id="projects">
+    <section className='reveal-element' id="professional-work">
     <h2 class="headings">Professional Work</h2>
       <ul class="featured-projects">
         {/* Project 1  */}

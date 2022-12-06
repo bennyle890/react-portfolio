@@ -1,13 +1,5 @@
-* {
-    background-color: #595959;
-}
-
-*, ::before, ::after {
-    box-sizing: inherit;
-}
-
 body {
-    color: #474747;
+    background-color: #595959;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
@@ -285,6 +277,7 @@ p {
 .project-content {
     position: relative;
     grid-area: 1 / 1 / -1 / 7;
+    width: 55rem;
 }
 
 .project-overline {
@@ -292,6 +285,8 @@ p {
     color: #00ffcc;
     font-weight: 400px;
     text-align: right;
+    z-index: 1;
+    position: relative;
 }
 
 .project-title {
@@ -300,8 +295,8 @@ p {
     text-decoration: none;
     text-align: right;
     font-size: 1.5em;
-    z-index: 4;
-    /* position: relative; */
+    z-index: 1;
+    position: relative;
 }
 
 h3>a {
@@ -320,6 +315,7 @@ h3>a {
     width: 50%;
     display: block;
     align-items: flex-end;
+    background-color: #595959;;
 }
 
 .project-description p {
@@ -362,8 +358,7 @@ h3>a {
     box-shadow: auto;
     grid-area: 1 / 6 / -1 / -1;
     position: relative;
-    z-index: 1;
-
+    width: 40rem;
 }
 
 .computer-img {
@@ -376,10 +371,7 @@ h3>a {
 /* End Work Section */
 
 /* Contact Me Section */
-footer {
-    justify-content: center;
-    text-align: center;
-}
+
 
 
 /* Side Bar  */
@@ -445,3 +437,13 @@ footer {
     margin-left: 15px;
 }
 
+.container-a {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-a {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}

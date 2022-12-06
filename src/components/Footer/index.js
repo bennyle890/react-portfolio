@@ -1,9 +1,10 @@
 import React from 'react';
+import './footer.css';
 
 function Footer() {
 
     return(
-            <footer id="contact">
+            <footer>
         <p>Designed & Built by Benny Le</p>
             </footer>
     )

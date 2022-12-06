@@ -1,5 +1,7 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard';
+import './otherwork.css';
+
 
 function Otherwork() {
 
@@ -9,7 +11,14 @@ function Otherwork() {
             description: 'Simple Weather App',
             img: 'WeatherWhenever',
             alt: 'Weather Whenever website',
-            deployedlink: 'https://bennyle890.github.io/Weather-Whenever/'
+            deployedLink: 'https://bennyle890.github.io/Weather-Whenever/'
+        },
+        {
+            title: 'Notes for Thoughts',
+            description: 'Note taking application',
+            img: 'Notes',
+            alt: 'Notes for thoughts webpage',
+            deployedLink: 'https://notes-for-thoughts.herokuapp.com/'
         },
     ];
 
@@ -35,24 +44,24 @@ function Otherwork() {
     };
 
     return (
-        <div className='reveal-element'>
-            <h2 class="headings">Other Noteworthy Projects</h2>
+        <section className='reveal-element'>
+            <h2 className="headings-a">Other Noteworthy Projects</h2>
             <section className="project" id="project">
-                <div className='container'>
+                <div className='container-a'>
                     {projects.map((el, i) => (
-                        <div key={i}>
+                        <div key={i} className='row-a'>
                             <ProjectCard
                                 title = {el.title}
                                 description = {el.description}
                                 img = {el.img}
                                 alt = {el.alt}
-                                deployedlink = {el.deployedlink}
+                                deployedLink = {el.deployedLink}
                             />
                         </div>
                     ))}
                 </div>
             </section>
-        </div>
+        </section>
     )
 }
 

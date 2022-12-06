@@ -3,17 +3,19 @@ import './projectcard.css';
 
 function ProjectCard(props) {
     
-    const { title, desciption, img, deployedLink, alt } = props;
+    const { title, description, img, deployedLink, alt } = props;
 
     return (
-        <article>
-            <div className='project-button-w'>
-                <a target='_blank' rel='noreferrer' href={deployedLink} className='project-button'>View Preview</a>
-            </div>
-            <img alt={alt} className='project-img' src={require(`../../assets/images/${img}.png`)}></img>
-            <div className='project-text'>
-                <h2>{title}</h2>
-                <p>{desciption}</p>
+        <article className='wrapper-a'>
+            <div className='card'>
+                <a target='_blank' rel='noreferrer' href={deployedLink} className='project-button'>
+                    <img alt={alt} className='project-img' src={require(`../../assets/images/${img}.png`)}>
+                    </img>
+                </a>
+                <div className='project-text'>
+                    <h2 className='project-title'>{title}</h2>
+                    <p className='project-desc'>{description}</p>
+                </div>
             </div>
         </article>
     )
