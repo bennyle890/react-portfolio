@@ -34,7 +34,7 @@ function ContactForm() {
     };
 
     return (
-        <section>
+        <section className='reveal-element'>
             <h1 id='contact' className='contact'>Contact Me</h1>
             <form id='contact-form' onSubmit={handleSubmit} className='contact-form'>
                 <div>

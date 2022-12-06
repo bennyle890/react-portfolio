@@ -15,7 +15,7 @@ function Sidebar() {
                 <a href="https://www.linkedin.com/in/benny-le/" aria-label="Linkedin" target="_blank" rel="linkedin">
                     <img src={LinkedInImg} class="linkedinimg" alt="linkedinimg"/></a>
             </ul>
-                <p>benny.le890@gmail.com</p>
+                <p className='side-email'>benny.le890@gmail.com</p>
         </div>
     )
 }
