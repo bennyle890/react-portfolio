@@ -2,7 +2,7 @@ import React from 'react';
 import MagicTraveler from '../../assets/images/MagTrav-Homepage.png';
 import QCFoodies from '../../assets/images/QCFoodiesHomepage.png';
 import TextEditor from '../../assets/images/JATE-img.png';
-
+import Shop from '../../assets/images/shop(1).png';
 
 
 function Prowork () {
@@ -94,12 +94,12 @@ function Prowork () {
           <div class="project-content">
             <div>
               <p class="project-overline">Featured Project</p>
-              <h3 class="project-title"><a href="https://text-editor-2.herokuapp.com/" target="blank">J.A.T.E.</a></h3>
+              <h3 class="project-title"><a href="https://shop-n-it.herokuapp.com/" target="blank">Shop In It</a></h3>
               <div class="project-description">
-                <p>A simple Text Editor Utilizing <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, to created a Progressive Web Application. </p>
+                <p>A MERN E-Commerce Store utilizing <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> </p>
                 <ul class="project-tech-list">
                   <li>VS Code</li>
-                  <li>Manifest</li>
+                  <li>React</li>
                   <li>Express</li>
                   <li>Node.js</li>
                 </ul>
@@ -110,9 +110,9 @@ function Prowork () {
             </div>
           </div>
           <div class="project-image">
-            <a href="https://text-editor-2.herokuapp.com/" target="_blank">
+            <a href="https://shop-n-it.herokuapp.com/" target="_blank">
               <div class="image-wrapper">
-            <img src={TextEditor} class="computer-img" alt="Construction pic" />
+            <img src={Shop} class="computer-img" alt="Construction pic" />
               </div>
             </a>
           </div>
