@@ -22,7 +22,7 @@ This is a professional portfolio utilizing react and other skills obtained throu
   A link to the deployed application is found [here.](https://bennyle890.github.io/react-portfolio/)
 
 ![React Portfolio](./src/assets/images/react-portfolio.png)
-
+ 
   # Questions
   If you have any questions about the repository, please contact/email benny.le890@gmail.com <br />
   My GitHub profile is found at [GitHub Profile](https//GitHub.com/bennyle890)
